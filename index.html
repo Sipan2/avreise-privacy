@@ -1,53 +1,39 @@
-<!DOCTYPE html>
-<html lang="no">
+<!doctype html>
+<html lang="nb">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Personvernerklæring – Avreise</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Personvern og kontakt – Avreise</title>
 <style>
-  body { font-family: -apple-system, sans-serif; max-width: 680px; margin: 60px auto;
-         padding: 0 24px; color: #1a1a1a; line-height: 1.7; }
-  h1 { font-size: 26px; font-weight: 700; }
-  h2 { font-size: 16px; font-weight: 600; margin-top: 32px; }
-  p, li { font-size: 15px; color: #333; }
-  a { color: #0071e3; }
-  footer { margin-top: 60px; font-size: 13px; color: #999; }
+:root{color-scheme:light dark}body{font:17px/1.65 system-ui,sans-serif;max-width:720px;margin:48px auto;padding:0 22px;color:#202631;background:#fff}h1,h2{line-height:1.25}h1{font-size:2rem}h2{font-size:1.25rem;margin-top:2rem}a{color:#175fc7}footer{margin-top:3rem;font-size:.9rem;color:#5d6470}@media(prefers-color-scheme:dark){body{background:#0b1017;color:#e8edf3}a{color:#8cbcff}footer{color:#a8b2c0}}
 </style>
 </head>
 <body>
-<h1>Personvernerklæring</h1>
-<p><strong>App:</strong> Avreise<br>
-<strong>Utvikler:</strong> Sipan Hadji<br>
-<strong>Kontakt:</strong> <a href="mailto:sipan_hadji@outlook.com">sipan_hadji@outlook.com</a><br>
-<strong>Sist oppdatert:</strong> April 2026</p>
-
-<h2>Hvilke data samler vi inn?</h2>
-<p>Avreise samler inn følgende data:</p>
+<main>
+<h1>Personvern i Avreise</h1>
+<p>Avreise hjelper deg med å planlegge reisen til Oslo lufthavn Gardermoen. Appen er gratis og krever ingen konto.</p>
+<p>Utvikler: Sipan Hadji<br>Sist oppdatert: 20. september 2026</p>
+<h2>Posisjon og startsted</h2>
+<p>Hvis du gir tilgang til posisjon, bruker appen den mens du bruker appen for å finne ruter og vise deg på kartet. Du kan bruke appen uten posisjonstillatelse ved å søke etter en adresse, et sted eller en stasjon.</p>
+<p>Søketeksten sendes til Entur når du søker etter et startsted. Startsted, mål og reisetid sendes til Entur for å finne kollektivruter. Avhengig av startstedet brukes koordinater eller en holdeplassidentifikator. Apple kan brukes til å finne stedsnavn og postnummer fra koordinater.</p>
+<h2>Hva lagres på enheten?</h2>
+<p>Valgt startsted, reiser du lagrer i «Mine reiser», og varslingsvalg lagres lokalt på enheten. En reise med varsler aktivert kan også lagres lokalt for at varslingen skal kunne fortsette senere. Å åpne en reise lagrer den ikke automatisk i «Mine reiser».</p>
+<p>Du kan fjerne reiser i «Mine reiser» og lagret startsted i adressevalget. En lagret reise kan fortsatt inneholde sitt eget startsted. Appens lokale data fjernes når du sletter appen. Eventuell sikkerhetskopiering styres av enhetens innstillinger.</p>
+<h2>Tjenester og kart</h2>
 <ul>
-  <li><strong>Posisjon (GPS)</strong> – brukes til å beregne avgangstid fra der du befinner deg til Oslo Lufthavn Gardermoen. Posisjonen lagres aldri og sendes ikke til noen server.</li>
-  <li><strong>Hjemadresse</strong> – hvis du velger å lagre en hjemadresse, lagres gatenavn og koordinater lokalt på enheten din (UserDefaults). Dataen forlater aldri enheten.</li>
+<li><strong>Entur:</strong> leverer adressesøk, holdeplasser, ruter og tilgjengelige sanntidsopplysninger. <a href="https://om.entur.no/personvern/">Les om personvern hos Entur</a>.</li>
+<li><strong>Avinor:</strong> leverer flyavganger for valgt flyplass og dato. Appen spør ikke etter bookingnummer eller passopplysninger.</li>
+<li><strong>OpenFreeMap og Apple:</strong> leverer kartinnhold. Kartforespørsler viser hvilket område du ser på. Kartgrunnlaget fra OpenFreeMap bygger blant annet på OpenStreetMap. <a href="https://openfreemap.org/privacy/">Personvern hos OpenFreeMap</a> og <a href="https://www.apple.com/legal/privacy/">Apple</a>.</li>
 </ul>
-
-<h2>Deler vi data med tredjeparter?</h2>
-<p>Appen bruker <strong>Entur Journey Planner API</strong> for rutedata. Koordinatene dine sendes til Entur for å hente kollektivruter. Entur er et norsk offentlig selskap (AS). Se <a href="https://www.entur.org/om-entur/personvern/" target="_blank">Enturs personvernerklæring</a>.</p>
-<p>Appen bruker <strong>Avinors åpne API</strong> for flginformasjon. Ingen persondata sendes til Avinor.</p>
-<p>Vi deler ikke data med reklameselskaper, analyseverktøy eller andre tredjeparter.</p>
-
-<h2>Analyse og sporing</h2>
-<p>Appen inneholder ingen analyse, sporing, annonsering eller tredjeparts SDK-er.</p>
-
-<h2>Lagring</h2>
-<p>All data (hjemadresse, reiseanbefaling) lagres utelukkende lokalt på enheten din og slettes automatisk hvis du avinstallerer appen.</p>
-
-<h2>Dine rettigheter</h2>
-<p>Du kan når som helst slette lagret hjemadresse i appen. Siden vi ikke lagrer noen data eksternt, finnes det ingen data å be om innsyn i eller sletting av hos oss.</p>
-
-<h2>Endringer</h2>
-<p>Eventuelle endringer i denne erklæringen vil gjenspeiles på denne siden med oppdatert dato.</p>
-
-<h2>Kontakt</h2>
-<p>Spørsmål? Send e-post til <a href="mailto:sipan_hadji@outlook.com">sipan_hadji@outlook.com</a></p>
-
+<p>Ved nettverksforespørsler mottar tjenesteleverandøren tekniske opplysninger som IP-adresse. Leverandørenes egne personvernvilkår gjelder for deres behandling. Posisjon og startsted blir derfor ikke bare behandlet lokalt når du bruker rutesøk og kart.</p>
+<h2>Varsler og Live Activity</h2>
+<p>Varsler og Live Activity er valgfrie. Når du aktiverer dem, bruker appen den valgte reisen til lokale varsler og visning på låseskjermen. Slå av «Varsler for reisen» for å avslutte dette, eller endre tillatelsene i iOS-innstillingene. Oppdatering når appen ikke er åpen avhenger av hva iOS tillater; løpende sanntidsvarsling er ikke garantert.</p>
+<h2>Analyse og reklame</h2>
+<p>Avreise har ingen annonser, reklamesporing eller analyseverktøy for markedsføring. Appen bruker tredjepartsprogramvaren MapLibre til kartvisning.</p>
+<h2>Kontakt og spørsmål</h2>
+<p>For hjelp med appen eller spørsmål om personvern, kontakt <a href="mailto:sipan_hadji@outlook.com">sipan_hadji@outlook.com</a>. Ikke send bookingnummer, passopplysninger eller andre sensitive reisedokumenter.</p>
+<p>Denne siden oppdateres når appens behandling av opplysninger endres.</p>
+</main>
 <footer>© 2026 Sipan Hadji · Avreise</footer>
 </body>
 </html>
